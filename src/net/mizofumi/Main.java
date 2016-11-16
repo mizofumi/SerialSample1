@@ -40,6 +40,7 @@ public class Main {
             @Override
             public void close() {
                 System.out.println("切断しました");
+                System.exit(0); //プログラムを終了させる
             }
 
             @Override
