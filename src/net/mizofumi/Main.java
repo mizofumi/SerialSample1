@@ -36,6 +36,12 @@ public class Main {
                 System.out.println("開放失敗"+errorMessage);
             }
 
+            //停止時に呼ばれる
+            @Override
+            public void stop() {
+
+            }
+
             //ポートの切断成功時に呼ばれる
             @Override
             public void close() {

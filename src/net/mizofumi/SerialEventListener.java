@@ -9,6 +9,7 @@ public interface SerialEventListener {
     void write_failed(); //書き出し失敗
     void open(); //ポートオープン成功
     void open_failed(String errorMessage); //ポートオープン失敗
+    void stop(); //停止時に呼ぶ
     void close(); //ポートクローズ成功
     void close_failed(String errorMessage); //ポートクローズ失敗
 }

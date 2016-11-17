@@ -91,6 +91,7 @@ public class Serial implements SerialPortEventListener{
 
     public void stop(){
         StopFlag = true;
+        listener.stop();
     }
 
     @Override
